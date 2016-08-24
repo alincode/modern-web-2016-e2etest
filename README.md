@@ -10,4 +10,5 @@ git clone https://github.com/alincode/modern-web-2016-e2etest.git
 
 ```
 npm init -y
+npm i webdriverio -D
 ```

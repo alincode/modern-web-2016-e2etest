@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/alincode/modern-web-2016-e2etest/issues"
   },
-  "homepage": "https://github.com/alincode/modern-web-2016-e2etest#readme"
+  "homepage": "https://github.com/alincode/modern-web-2016-e2etest#readme",
+  "devDependencies": {
+    "webdriverio": "^4.2.8"
+  }
 }
