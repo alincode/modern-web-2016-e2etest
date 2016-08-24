@@ -19,4 +19,10 @@ describe('demo 2', function() {
     browser.click('.Button--primary');
     browser.waitForExist('[href="/keystone/signout"]');
   });
+
+  it('logout', function() {
+    browser.click('[href="/keystone/signout"]');
+    browser.waitForExist('.Alert--info');
+  });
+
 });
