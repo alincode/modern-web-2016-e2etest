@@ -68,7 +68,7 @@ exports.config = {
   //
   // Set a base URL in order to shorten url command calls. If your url parameter starts
   // with "/", then the base url gets prepended.
-  baseUrl: 'http://localhost',
+  baseUrl: 'http://demo.keystonejs.com',
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 10000,
@@ -122,7 +122,7 @@ exports.config = {
   // See the full list at http://mochajs.org/
   mochaOpts: {
     ui: 'bdd',
-    timeout: 60000
+    timeout: 600000
   },
   //
   // =====
