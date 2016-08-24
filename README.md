@@ -20,3 +20,9 @@ npm i webdriverio -D
 ```
 node_modules/webdriverio/bin/wdio
 ```
+
+**setting up npm test**
+
+`vi package.json`
+
+**init test folder**
