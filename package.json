@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/alincode/modern-web-2016-e2etest#readme",
   "devDependencies": {
+    "selenium-standalone": "^5.6.1",
     "wdio-mocha-framework": "^0.4.0",
     "wdio-selenium-standalone-service": "0.0.6",
     "wdio-spec-reporter": "0.0.3",
