@@ -6,9 +6,17 @@
 git clone https://github.com/alincode/modern-web-2016-e2etest.git
 ```
 
-**Step by Step**
+### Step by Step
+
+**init project**
 
 ```
 npm init -y
 npm i webdriverio -D
+```
+
+**init config**
+
+```
+node_modules/webdriverio/bin/wdio
 ```
