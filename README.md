@@ -26,3 +26,5 @@ node_modules/webdriverio/bin/wdio
 `vi package.json`
 
 **init test folder**
+
+`mkdir -p ./test/specs/`
