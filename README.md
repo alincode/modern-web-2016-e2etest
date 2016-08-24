@@ -29,3 +29,7 @@ node_modules/webdriverio/bin/wdio
 **init test folder**
 
 `mkdir -p ./test/specs/`
+
+**write first test**
+
+`vi ./test/specs/demo1.js`
