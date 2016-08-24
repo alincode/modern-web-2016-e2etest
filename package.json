@@ -1,0 +1,20 @@
+{
+  "name": "modern-web-2016-e2etest",
+  "version": "1.0.0",
+  "description": "**checkout code**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alincode/modern-web-2016-e2etest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alincode/modern-web-2016-e2etest/issues"
+  },
+  "homepage": "https://github.com/alincode/modern-web-2016-e2etest#readme"
+}

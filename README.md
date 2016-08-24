@@ -5,3 +5,9 @@
 ```
 git clone https://github.com/alincode/modern-web-2016-e2etest.git
 ```
+
+**Step by Step**
+
+```
+npm init -y
+```
