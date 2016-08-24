@@ -2,7 +2,7 @@ var assert = require('assert');
 var FrontPage = require('../pageobjects/front.page');
 var LoginPage = require('../pageobjects/login.page');
 
-describe('page object example', function() {
+describe('demo 3: page object example', function() {
 
   it('login failure', function() {
     LoginPage.open();
