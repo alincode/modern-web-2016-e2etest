@@ -4,7 +4,12 @@
   "description": "**checkout code**",
   "main": "index.js",
   "scripts": {
-    "test": "wdio wdio.conf.js"
+    "test": "wdio wdio.conf.js",
+    "demo1": "wdio wdio.conf.js --spec ./test/specs/demo1.js",
+    "demo2": "wdio wdio.conf.js --spec ./test/specs/demo2.js",
+    "demo3": "wdio wdio.conf.js --spec ./test/specs/demo3.js",
+    "demo4": "wdio wdio.conf.js --spec ./test/specs/demo4.js",
+    "dev-test": "chimp --mocha --watch --path=test"
   },
   "repository": {
     "type": "git",

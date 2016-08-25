@@ -1,6 +1,11 @@
 const assert = require('assert');
 
 describe('demo 2: dirty code', function() {
+
+  beforeEach(function() {
+    browser.pause(10000);
+  });
+
   it('login failure', function() {
     browser.url('http://demo.keystonejs.com/keystone/signin');
     browser.element('[name=email]').setValue('demo@keystonejs.com');
