@@ -33,3 +33,13 @@ node_modules/webdriverio/bin/wdio
 **write first test**
 
 `vi ./test/specs/demo1.js`
+
+**execute test**
+
+```
+npm run demo1
+npm run demo2
+npm run demo3
+npm run demo4
+npm run dev-test
+```

@@ -1,7 +1,7 @@
 {
   "name": "modern-web-2016-e2etest",
   "version": "1.0.0",
-  "description": "**checkout code**",
+  "description": "modern web 2016 - end to end testing",
   "main": "index.js",
   "scripts": {
     "test": "wdio wdio.conf.js",
@@ -15,14 +15,18 @@
     "type": "git",
     "url": "git+https://github.com/alincode/modern-web-2016-e2etest.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "webdriverio",
+    "mocha"
+  ],
+  "author": "alincode",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alincode/modern-web-2016-e2etest/issues"
   },
   "homepage": "https://github.com/alincode/modern-web-2016-e2etest#readme",
   "devDependencies": {
+    "chimp": "^0.40.4",
     "selenium-standalone": "^5.6.1",
     "wdio-mocha-framework": "^0.4.0",
     "wdio-selenium-standalone-service": "0.0.6",
