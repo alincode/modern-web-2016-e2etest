@@ -2,9 +2,13 @@ var assert = require('assert');
 var FrontPage = require('../pageobjects/front.page');
 var LoginPage = require('../pageobjects/login.page');
 
-describe('demo 3: page object example', function() {
+describe('demo 3: page object example 帳號驗證流程', function() {
 
-  it('login failure', function() {
+  beforeEach(function() {
+    browser.pause(10000);
+  });
+
+  it('登入失敗', function() {
     LoginPage.open();
     LoginPage.email.setValue(LoginPage.content.email);
     LoginPage.password.setValue(LoginPage.content.worryPassword);
@@ -14,7 +18,7 @@ describe('demo 3: page object example', function() {
     assert.equal(message, LoginPage.content.errorMessage);
   });
 
-  it('login successful', function() {
+  it('登入成功', function() {
     LoginPage.open();
     LoginPage.email.setValue(LoginPage.content.email);
     LoginPage.password.setValue(LoginPage.content.correctPassword);
@@ -22,7 +26,7 @@ describe('demo 3: page object example', function() {
     browser.waitForExist(FrontPage.content.logoutLink);
   });
 
-  it('logout', function() {
+  it('登出', function() {
     FrontPage.logout();
     browser.waitForExist(FrontPage.content.alertInfo);
   });
