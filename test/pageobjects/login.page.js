@@ -28,7 +28,7 @@ var LoginPage = Object.create(page, {
 
   clickLoginButton: {
     value: function() {
-      browser.click('.Button--primary');
+      browser.click('button[type=submit]');
     }
   },
 

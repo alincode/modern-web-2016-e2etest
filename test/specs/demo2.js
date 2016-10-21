@@ -10,7 +10,7 @@ describe('demo 2: dirty code', function() {
     browser.url('http://demo.keystonejs.com/keystone/signin');
     browser.element('[name=email]').setValue('demo@keystonejs.com');
     browser.element('[name=password]').setValue('1111');
-    browser.click('.Button--primary');
+    browser.click('button[type=submit]');
     browser.waitForExist('.Alert--danger');
     const message = browser.getText('.Alert--danger');
     assert.equal(message,
@@ -21,7 +21,7 @@ describe('demo 2: dirty code', function() {
     browser.url('http://demo.keystonejs.com/keystone/signin');
     browser.element('[name=email]').setValue('demo@keystonejs.com');
     browser.element('[name=password]').setValue('demo');
-    browser.click('.Button--primary');
+    browser.click('button[type=submit]');
     browser.waitForExist('[href="/keystone/signout"]');
   });
 
